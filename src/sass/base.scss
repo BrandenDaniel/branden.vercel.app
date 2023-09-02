@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: inherit;
+  color: rgb(212, 212, 212);
+}
+
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+:root {
+  font-size: 16px;
+  --theme: #151515;
+}
+
+body {
+  background: var(--theme);
+}
+
+.container {
+  max-width: 630px;
+  padding: 0 25px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}

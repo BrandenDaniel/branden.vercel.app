@@ -1,4 +1,12 @@
-@import "./base.scss";
+// global
+@import "./global.scss";
+
+// components
 @import "./components/nav.scss";
 @import "./components/banner.scss";
 @import "./components/socials.scss";
+@import "./components/techstack.scss";
+@import "./components/projectItem.scss";
+
+// pages
+@import "./pages/home.scss";

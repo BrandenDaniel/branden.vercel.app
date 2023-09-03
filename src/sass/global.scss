@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   font-family: inherit;
-  color: rgb(212, 212, 212);
+  color: var(--body);
 }
 
 $sm: 576px;
@@ -14,6 +14,7 @@ $xxl: 1400px;
 :root {
   font-size: 16px;
   --theme: #151515;
+  --body: rgb(212, 212, 212);
 }
 
 body {
@@ -24,6 +25,8 @@ body {
   max-width: 630px;
   padding: 0 25px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 a {

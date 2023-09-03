@@ -19,7 +19,7 @@ const TechStack = () => {
       </div>
       <div>
         <p>
-          JavaScript <span>3 years</span>
+          JavaScript <span>4 years</span>
         </p>
         <p>
           React.js <span>2 year</span>

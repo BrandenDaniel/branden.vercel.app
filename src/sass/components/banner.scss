@@ -12,7 +12,7 @@
     }
     p {
       font-size: 17px;
-      line-height: 1.45;
+      line-height: 1.5;
       max-width: 326px;
     }
   }
@@ -37,6 +37,10 @@
     margin-top: auto;
 
     .socials {
+      * {
+        line-height: 1;
+        display: block;
+      }
       a {
         &:hover {
           svg {

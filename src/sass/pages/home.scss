@@ -3,7 +3,18 @@
 
   &__featuredProjects {
     h2 {
-      font-size: 17px;
+      font-size: 19px;
+      margin-bottom: 20px;
+      font-weight: 500;
+    }
+
+    &-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      * {
+        min-width: 0px;
+      }
     }
   }
 }

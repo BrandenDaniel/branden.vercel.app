@@ -1,2 +1,47 @@
 .projectItem {
+  display: flex;
+  flex-direction: column;
+
+  &__thumbnail {
+    position: relative;
+    height: 180px;
+  }
+  img {
+    object-fit: cover;
+    display: block;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+
+    &-name {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      svg {
+        height: 20px;
+        width: 20px;
+      }
+    }
+
+    &-desc {
+      opacity: 0.6;
+      line-height: 1.5;
+    }
+
+    &-tech {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 11px;
+
+      span {
+        font-size: 13px;
+        opacity: 0.6;
+      }
+    }
+  }
 }

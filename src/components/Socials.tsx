@@ -1,7 +1,8 @@
 import Link from "next/link";
 import React from "react";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
 import { MdAlternateEmail } from "react-icons/md";
+import { SlSocialLinkedin } from "react-icons/sl";
 
 const Socials = () => {
   return (
@@ -10,7 +11,7 @@ const Socials = () => {
         <FaGithub />
       </Link>
       <Link href="https://www.linkedin.com/in/brandendaniel/">
-        <FaLinkedinIn />
+        <SlSocialLinkedin />
       </Link>
       <Link href="mailto:brandendanielng@gmail.com">
         <MdAlternateEmail />

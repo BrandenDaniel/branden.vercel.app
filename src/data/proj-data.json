@@ -1,0 +1,67 @@
+{
+  "projects": [
+    {
+      "previewGif": "/project-thumbnail/multi-step-form-preview.gif",
+      "name": "Multi-step form",
+      "URL": "https://multi-step-form-murex-two.vercel.app/",
+      "desc": "Multi-step form demo with input validation and state management via state lifting.",
+      "techStack": [
+        "React.js",
+        "Next.js",
+        "TypeScript",
+        "JavaScript",
+        "SASS/SCSS",
+        "BEM",
+        "Form Validation",
+        "Responsive"
+      ]
+    },
+    {
+      "previewGif": "/project-thumbnail/coffeeroasters-preview.gif",
+      "name": "Coffeeroasters",
+      "URL": "https://coffee-roasters-sigma.vercel.app/plan",
+      "desc": "Coffeeroasters is a 3 page fully functional coffee subscription website. Featuring dynamic and conditional data handling.",
+      "techStack": [
+        "React.js",
+        "Next.js",
+        "JavaScript",
+        "SASS/SCSS",
+        "BEM",
+        "Responsive"
+      ]
+    },
+    {
+      "previewGif": "/project-thumbnail/splitter-preview.gif",
+      "name": "Splitter",
+      "URL": "https://frontend-mentor-tip-calculator-app-zeta.vercel.app/",
+      "desc": "Bill tipper and splitter - a minimally styled utility app with some JS functionality/calculations.",
+      "techStack": ["HTML", "JavaScript", "CSS", "BEM", "Responsive"]
+    },
+    {
+      "previewGif": "/project-thumbnail/youtube-clone-preview.png",
+      "name": "YouTube clone",
+      "URL": "https://youtube-clone-nine-henna.vercel.app/",
+      "desc": "YouTube clone app with searchable videos and channels.",
+      "techStack": [
+        "React.js",
+        "JavaScript",
+        "Material UI",
+        "Rapid API integration",
+        "Axios"
+      ]
+    },
+    {
+      "previewGif": "/project-thumbnail/cryptoverse-preview.gif",
+      "name": "Cryptoverse",
+      "URL": "https://crypto-app-one-sepia.vercel.app/",
+      "desc": "Crypto app showcasing top cryptocurrencies with current prices, news, market cap, and other statistics.",
+      "techStack": [
+        "React.js",
+        "JavaScript",
+        "SASS/SCSS",
+        "Ant Design",
+        "Rapid API integration"
+      ]
+    }
+  ]
+}

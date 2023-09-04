@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Ubuntu } from "next/font/google";
 import "../sass/main.scss";
+import Nav from "@/components/Nav";
 
 const ubuntu = Ubuntu({
   subsets: ["latin"],
@@ -19,7 +20,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={ubuntu.className}>{children}</body>
+      <body className={ubuntu.className}>
+        <div className="container">
+          <Nav />
+          {children}
+        </div>
+      </body>
     </html>
   );
 }

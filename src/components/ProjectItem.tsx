@@ -2,10 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { IoLinkOutline } from "react-icons/io5";
+import { TbBrandGithub } from "react-icons/tb";
 
 type Props = {
   previewGif: string;
   URL: string;
+  ghRepo: string;
   name: string;
   desc?: string;
   techStack: string[];
@@ -18,12 +20,17 @@ const ProjectItem = (props: Props) => {
         <Image src={props.previewGif} alt={props.name} fill={true} />
       </div>
       <div className="projectItem__content">
-        <p className="projectItem__content-name">
-          {props.name}
-          <Link href={props.URL} target="_blank">
-            <IoLinkOutline />
-          </Link>
-        </p>
+        <div className="projectItem__content-name">
+          <p>{props.name}</p>
+          <div className="projectItem__content-external">
+            <Link href={props.ghRepo} target="_blank">
+              <TbBrandGithub />
+            </Link>
+            <Link href={props.URL} target="_blank">
+              <IoLinkOutline />
+            </Link>
+          </div>
+        </div>
         {props.desc && (
           <p className="projectItem__content-desc">{props.desc}</p>
         )}

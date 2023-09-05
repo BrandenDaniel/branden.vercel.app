@@ -8,13 +8,14 @@ const page = () => {
       <h1>Work</h1>
 
       <div className="projects__items">
-        {WorkData.projects.map((item) => (
+        {WorkData.map((item) => (
           <WorkItem
-            key={item.title}
-            thumbnail={item.thumbnail}
-            thumbnailPosition={item.thumbnailPosition}
-            title={item.title}
-            techStack={item.techStack}
+            key={item.caseStudy.title}
+            thumbnail={item.caseStudy.thumbnail}
+            thumbnailPosition={item.caseStudy.thumbnailPosition}
+            title={item.caseStudy.title}
+            shortDesc={item.caseStudy.shortDesc}
+            techStack={item.caseStudy.techStack}
           />
         ))}
       </div>

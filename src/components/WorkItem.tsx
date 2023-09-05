@@ -18,7 +18,11 @@ const ProjectItem = (props: Props) => {
           src={props.thumbnail}
           alt={props.title}
           fill={true}
-          style={{ objectPosition: props.thumbnailPosition }}
+          style={{
+            objectPosition: props.thumbnailPosition
+              ? props.thumbnailPosition
+              : "center",
+          }}
         />
       </div>
       <div className="projectItem__content">

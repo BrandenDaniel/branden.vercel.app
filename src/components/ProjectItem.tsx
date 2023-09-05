@@ -18,12 +18,16 @@ const ProjectItem = (props: Props) => {
   return (
     <div className="projectItem">
       <div className="projectItem__thumbnail">
-        <Image
-          src={props.previewGif}
-          alt={props.name}
-          fill={true}
-          style={{ objectPosition: props.position ? props.position : "center" }}
-        />
+        <Link href={props.URL} target="_blank">
+          <Image
+            src={props.previewGif}
+            alt={props.name}
+            fill={true}
+            style={{
+              objectPosition: props.position ? props.position : "center",
+            }}
+          />
+        </Link>
       </div>
       <div className="projectItem__content">
         <div className="projectItem__content-name">

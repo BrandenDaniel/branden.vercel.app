@@ -53,11 +53,11 @@ const page = () => {
               (item, i) =>
                 i < 2 && (
                   <WorkItem
-                    key={item.title}
-                    thumbnail={item.thumbnail}
-                    thumbnailPosition={item.thumbnailPosition}
-                    title={item.title}
-                    techStack={item.techStack}
+                    key={item.caseStudy.title}
+                    thumbnail={item.caseStudy.thumbnail}
+                    thumbnailPosition={item.caseStudy.thumbnailPosition}
+                    title={item.caseStudy.title}
+                    techStack={item.caseStudy.techStack}
                   />
                 )
             )}

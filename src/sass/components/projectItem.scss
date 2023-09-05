@@ -4,7 +4,7 @@
 
   &__thumbnail {
     position: relative;
-    height: 170px;
+    height: 180px;
   }
   img {
     object-fit: cover;
@@ -14,8 +14,8 @@
   &__content {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-top: 13px;
+    gap: 12px;
+    margin-top: 14px;
 
     &-name {
       display: flex;
@@ -52,8 +52,8 @@
     }
 
     &-desc {
-      opacity: 0.5;
       line-height: 1.5;
+      font-size: 14px;
     }
 
     &-tech {

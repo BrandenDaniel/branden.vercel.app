@@ -3,40 +3,46 @@
   flex-direction: column;
   gap: 60px 0;
 
-  &__featuredProjects,
-  &__featuredWork {
-    h2 {
-      font-size: 19px;
-      margin-bottom: 15px;
-      font-weight: 500;
-      display: flex;
-      align-items: flex-end;
-      justify-content: space-between;
+  &__featured {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 
-      a {
+    &-projects,
+    &-work {
+      h2 {
+        font-size: 19px;
+        margin-bottom: 15px;
+        font-weight: 500;
         display: flex;
-        align-items: center;
-        gap: 7px;
-        font-size: 13px;
-        opacity: 0.5;
+        align-items: flex-end;
+        justify-content: space-between;
 
-        &:hover {
-          opacity: 1;
-        }
+        a {
+          display: flex;
+          align-items: center;
+          gap: 7px;
+          font-size: 13px;
+          opacity: 0.5;
 
-        svg {
-          color: var(--body);
-          font-size: 18px;
+          &:hover {
+            opacity: 1;
+          }
+
+          svg {
+            color: var(--body);
+            font-size: 18px;
+          }
         }
       }
-    }
 
-    &-container {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 15px;
-      * {
-        min-width: 0px;
+      &-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        * {
+          min-width: 0px;
+        }
       }
     }
   }

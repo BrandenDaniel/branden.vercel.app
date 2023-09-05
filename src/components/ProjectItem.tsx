@@ -6,6 +6,7 @@ import { TbBrandGithub } from "react-icons/tb";
 
 type Props = {
   previewGif: string;
+  position?: string;
   URL: string;
   ghRepo: string;
   name: string;
@@ -17,7 +18,12 @@ const ProjectItem = (props: Props) => {
   return (
     <div className="projectItem">
       <div className="projectItem__thumbnail">
-        <Image src={props.previewGif} alt={props.name} fill={true} />
+        <Image
+          src={props.previewGif}
+          alt={props.name}
+          fill={true}
+          style={{ objectPosition: props.position ? props.position : "center" }}
+        />
       </div>
       <div className="projectItem__content">
         <div className="projectItem__content-name">

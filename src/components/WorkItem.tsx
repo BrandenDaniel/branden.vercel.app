@@ -4,6 +4,7 @@ import React from "react";
 
 type Props = {
   thumbnail: string;
+  thumbnailPosition?: string;
   title: string;
   shortDesc?: string;
   techStack: string[];
@@ -13,7 +14,12 @@ const ProjectItem = (props: Props) => {
   return (
     <div className="projectItem">
       <div className="projectItem__thumbnail">
-        <Image src={props.thumbnail} alt={props.title} fill={true} />
+        <Image
+          src={props.thumbnail}
+          alt={props.title}
+          fill={true}
+          style={{ objectPosition: props.thumbnailPosition }}
+        />
       </div>
       <div className="projectItem__content">
         <div className="projectItem__content-name">

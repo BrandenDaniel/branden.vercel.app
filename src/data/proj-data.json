@@ -1,6 +1,24 @@
 {
   "projects": [
     {
+      "previewGif": "/project/thumbnail/devjobs-preview.gif",
+      "postion": "center top",
+      "name": "Multi-step form",
+      "URL": "https://devjobs-one-eta.vercel.app/",
+      "ghRepo": "https://github.com/BrandenDaniel/devjobs",
+      "desc": "A job search web app with filtering features and dynamic data population on a single modal.",
+      "techStack": [
+        "React.js",
+        "Next.js",
+        "TypeScript",
+        "JavaScript",
+        "Filtering",
+        "SASS/SCSS",
+        "BEM",
+        "Responsive"
+      ]
+    },
+    {
       "previewGif": "/project/thumbnail/multi-step-form-preview.gif",
       "name": "Multi-step form",
       "URL": "https://multi-step-form-murex-two.vercel.app/",
@@ -20,6 +38,7 @@
     {
       "previewGif": "/project/thumbnail/coffeeroasters-preview.gif",
       "name": "Coffeeroasters",
+      "postion": "center top",
       "URL": "https://coffee-roasters-sigma.vercel.app/plan",
       "ghRepo": "https://github.com/BrandenDaniel/coffee-roasters",
       "desc": "Coffeeroasters is a 3 page fully functional coffee subscription website. Featuring dynamic and conditional data handling.",
@@ -43,6 +62,7 @@
     {
       "previewGif": "/project/thumbnail/cryptoverse-preview.gif",
       "name": "Cryptoverse",
+      "postion": "center top",
       "URL": "https://crypto-app-one-sepia.vercel.app/",
       "ghRepo": "https://github.com/BrandenDaniel/crypto-app",
       "desc": "Crypto app showcasing top cryptocurrencies with current prices, news, market cap, and other statistics.",

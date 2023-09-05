@@ -2,7 +2,7 @@
   {
     "title": "MySalPack",
     "thumbnail": "/work/thumbnail/msp-dashboard-desktop.png",
-    "thumbnailPosition": "",
+    "thumbnailPosition": "center top",
     "id": "my-sal-pack",
     "role": "front-end developer",
     "year": "2023",
@@ -33,7 +33,7 @@
   {
     "title": "Print Strategy Management",
     "thumbnail": "/work/thumbnail/psm-products.png",
-    "thumbnailPosition": "",
+    "thumbnailPosition": "center top",
     "id": "print-strategy-management",
     "role": "front-end developer",
     "year": "2019",

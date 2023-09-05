@@ -12,10 +12,12 @@ const page = () => {
           <ProjectItem
             key={item.name}
             previewGif={item.previewGif}
+            position={item.postion}
             URL={item.URL}
             ghRepo={item.ghRepo}
             name={item.name}
             techStack={item.techStack}
+            desc={item.desc}
           />
         ))}
       </div>

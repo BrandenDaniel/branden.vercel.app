@@ -13,51 +13,55 @@ const page = () => {
       <Banner />
       <TechStack />
 
-      <section className="home__featuredProjects">
-        <h2>
-          Projects
-          <Link href="/projects">
-            other projects <CgArrowRight />
-          </Link>
-        </h2>
+      <section className="home__featured">
+        <div className="home__featured-projects">
+          <h2>
+            Projects
+            <Link href="/projects">
+              other projects <CgArrowRight />
+            </Link>
+          </h2>
 
-        <div className="home__featuredProjects-container">
-          {ProjectData.projects.map(
-            (item, i) =>
-              i < 2 && (
-                <ProjectItem
-                  key={item.name}
-                  previewGif={item.previewGif}
-                  URL={item.URL}
-                  ghRepo={item.ghRepo}
-                  name={item.name}
-                  techStack={item.techStack}
-                />
-              )
-          )}
+          <div className="home__featured-projects-container">
+            {ProjectData.projects.map(
+              (item, i) =>
+                i < 2 && (
+                  <ProjectItem
+                    key={item.name}
+                    previewGif={item.previewGif}
+                    position={item.postion}
+                    URL={item.URL}
+                    ghRepo={item.ghRepo}
+                    name={item.name}
+                    techStack={item.techStack}
+                  />
+                )
+            )}
+          </div>
         </div>
-      </section>
 
-      <section className="home__featuredWork">
-        <h2>
-          Work
-          <Link href="/work">
-            other work <CgArrowRight />
-          </Link>
-        </h2>
+        <div className="home__featured-work">
+          <h2>
+            Work
+            <Link href="/work">
+              other work <CgArrowRight />
+            </Link>
+          </h2>
 
-        <div className="home__featuredWork-container">
-          {WorkData.map(
-            (item, i) =>
-              i < 2 && (
-                <WorkItem
-                  key={item.title}
-                  thumbnail={item.thumbnail}
-                  title={item.title}
-                  techStack={item.techStack}
-                />
-              )
-          )}
+          <div className="home__featured-work-container">
+            {WorkData.map(
+              (item, i) =>
+                i < 2 && (
+                  <WorkItem
+                    key={item.title}
+                    thumbnail={item.thumbnail}
+                    thumbnailPosition={item.thumbnailPosition}
+                    title={item.title}
+                    techStack={item.techStack}
+                  />
+                )
+            )}
+          </div>
         </div>
       </section>
     </div>

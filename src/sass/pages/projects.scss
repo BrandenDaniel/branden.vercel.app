@@ -1,0 +1,13 @@
+.projects {
+  h1 {
+    font-size: 19px;
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 15px;
+  }
+}

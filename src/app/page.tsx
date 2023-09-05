@@ -1,18 +1,19 @@
 import Banner from "@/components/Banner";
 import ProjectItem from "@/components/ProjectItem";
+import WorkItem from "@/components/WorkItem";
 import TechStack from "@/components/TechStack";
-import React from "react";
-import ProjectData from "../data/proj-data.json";
 import Link from "next/link";
 import { CgArrowRight } from "react-icons/cg";
+import ProjectData from "../data/proj-data.json";
+import WorkData from "../data/work-data.json";
 
 const page = () => {
   return (
-    <main className="home">
+    <div className="home">
       <Banner />
       <TechStack />
 
-      <div className="home__featuredProjects">
+      <section className="home__featuredProjects">
         <h2>
           Projects
           <Link href="/projects">
@@ -35,8 +36,31 @@ const page = () => {
               )
           )}
         </div>
-      </div>
-    </main>
+      </section>
+
+      <section className="home__featuredWork">
+        <h2>
+          Work
+          <Link href="/work">
+            other work <CgArrowRight />
+          </Link>
+        </h2>
+
+        <div className="home__featuredWork-container">
+          {WorkData.map(
+            (item, i) =>
+              i < 2 && (
+                <WorkItem
+                  key={item.title}
+                  thumbnail={item.thumbnail}
+                  title={item.title}
+                  techStack={item.techStack}
+                />
+              )
+          )}
+        </div>
+      </section>
+    </div>
   );
 };
 

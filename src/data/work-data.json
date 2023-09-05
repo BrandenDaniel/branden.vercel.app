@@ -1,7 +1,8 @@
-{
-  "my-sal-pack": {
+[
+  {
     "title": "MySalPack",
-    "thumbnail": "MSP-logo.svg",
+    "thumbnail": "/work/thumbnail/msp-dashboard-desktop.png",
+    "thumbnailPosition": "",
     "id": "my-sal-pack",
     "role": "front-end developer",
     "year": "2023",
@@ -27,11 +28,12 @@
       "my-sal-pack/msp-benefits-2-mobile.png",
       "my-sal-pack/msp-menu-mobile.png"
     ],
-    "stack": ["HTML", "CSS", "Sass", "JavaScript", "jQuery", "Blazor"]
+    "techStack": ["HTML", "CSS", "Sass", "JavaScript", "jQuery", "Blazor"]
   },
-  "print-strategy-management": {
+  {
     "title": "Print Strategy Management",
-    "thumbnail": "psmlogo.png",
+    "thumbnail": "/work/thumbnail/psm-products.png",
+    "thumbnailPosition": "",
     "id": "print-strategy-management",
     "role": "front-end developer",
     "year": "2019",
@@ -46,11 +48,12 @@
       "print-strategy-management/psm-about.png"
     ],
     "snapshotMobile": [],
-    "stack": ["HTML", "CSS", "WordPress", "jQuery"]
+    "techStack": ["HTML", "CSS", "WordPress", "JavaScript", "jQuery"]
   },
-  "kader-boot-co": {
+  {
     "title": "Kader Boot Co.",
-    "thumbnail": "kader-boot-co.png",
+    "thumbnail": "/work/thumbnail/kader-shop.png",
+    "thumbnailPosition": "",
     "id": "kader-boot-co",
     "role": "front-end developer",
     "year": "2019",
@@ -65,11 +68,12 @@
       "kader-boot-co/kader-about.png"
     ],
     "snapshotMobile": [],
-    "stack": ["HTML", "CSS", "WordPress", "jQuery"]
+    "techStack": ["HTML", "CSS", "WordPress", "jQuery"]
   },
-  "annie-pirotta": {
+  {
     "title": "Annie Pirotta",
-    "thumbnail": "annie-pirotta.png",
+    "thumbnail": "/work/thumbnail/anniepirotta-home.png",
+    "thumbnailPosition": "",
     "id": "annie-pirotta",
     "role": "front-end developer",
     "year": "2019",
@@ -82,11 +86,12 @@
       "annie-pirotta/anniepirotta-sym.png"
     ],
     "snapshotMobile": [],
-    "stack": ["HTML", "CSS", "WordPress", "jQuery"]
+    "techStack": ["HTML", "CSS", "WordPress", "jQuery"]
   },
-  "my-blind-spots": {
+  {
     "title": "My Blind Spots",
-    "thumbnail": "my-blind-spots.png",
+    "thumbnail": "/work/thumbnail/myblindspots-screen.png",
+    "thumbnailPosition": "",
     "id": "my-blind-spots",
     "role": "front-end developer",
     "year": "2019",
@@ -97,11 +102,12 @@
     ],
     "snapshot": ["my-blind-spots/myblindspots-screen.png"],
     "snapshotMobile": [],
-    "stack": ["HTML", "CSS", "WordPress", "jQuery"]
+    "techStack": ["HTML", "CSS", "WordPress", "jQuery"]
   },
-  "boxti": {
+  {
     "title": "Boxti",
-    "thumbnail": "boxtilogo.png",
+    "thumbnail": "/work/thumbnail/boxti-home.png",
+    "thumbnailPosition": "",
     "id": "boxti",
     "role": "front-end developer",
     "year": "2018",
@@ -115,11 +121,12 @@
       "boxti/boxti-about.png"
     ],
     "snapshotMobile": [],
-    "stack": ["HTML", "CSS", "WordPress", "jQuery"]
+    "techStack": ["HTML", "CSS", "WordPress", "jQuery"]
   },
-  "all-west-engineering": {
+  {
     "title": "All West Engineering",
-    "thumbnail": "all-west-eng.png",
+    "thumbnail": "/work/thumbnail/lms-2.png",
+    "thumbnailPosition": "",
     "id": "all-west-engineering",
     "role": "front-end developer",
     "year": "2018",
@@ -143,11 +150,12 @@
       "all-west-engineering/lms-admin-6.png"
     ],
     "snapshotMobile": [],
-    "stack": ["HTML", "CSS", "JavaScript", "jQuery"]
+    "techStack": ["HTML", "CSS", "JavaScript", "jQuery"]
   },
-  "perfect-cotton": {
+  {
     "title": "Perfect Cotton",
-    "thumbnail": "perfectcottonlogo.png",
+    "thumbnail": "/work/thumbnail/perfectcotton-shop.png",
+    "thumbnailPosition": "",
     "id": "perfect-cotton",
     "role": "front-end developer",
     "year": "2018",
@@ -161,6 +169,6 @@
       "perfect-cotton/perfectcotton-shop.png"
     ],
     "snapshotMobile": [],
-    "stack": ["HTML", "CSS", "WordPress", "jQuery"]
+    "techStack": ["HTML", "CSS", "WordPress", "jQuery"]
   }
-}
+]

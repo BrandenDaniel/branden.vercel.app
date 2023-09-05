@@ -2,10 +2,14 @@ import React from "react";
 
 const TechStack = () => {
   return (
-    <div className="techStack">
+    <section className="techStack">
       <div>
         <p>
           HTML <span>4 years</span>
+        </p>
+        <p>
+          Accessibility
+          <span>4 years</span>
         </p>
       </div>
 
@@ -31,7 +35,7 @@ const TechStack = () => {
           TypeScript <span>{`< 1 year`}</span>
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 

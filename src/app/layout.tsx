@@ -21,10 +21,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={ubuntu.className}>
-        <div className="container">
+        <main className="container">
           <Nav />
           {children}
-        </div>
+        </main>
       </body>
     </html>
   );

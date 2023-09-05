@@ -1,9 +1,10 @@
 .home {
   display: flex;
   flex-direction: column;
-  gap: 50px 0;
+  gap: 60px 0;
 
-  &__featuredProjects {
+  &__featuredProjects,
+  &__featuredWork {
     h2 {
       font-size: 19px;
       margin-bottom: 15px;
@@ -17,7 +18,7 @@
         align-items: center;
         gap: 7px;
         font-size: 13px;
-        opacity: 0.6;
+        opacity: 0.5;
 
         &:hover {
           opacity: 1;

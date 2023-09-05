@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "previewGif": "/project-thumbnail/multi-step-form-preview.gif",
+      "previewGif": "/project/thumbnail/multi-step-form-preview.gif",
       "name": "Multi-step form",
       "URL": "https://multi-step-form-murex-two.vercel.app/",
       "ghRepo": "https://github.com/BrandenDaniel/multi-step-form",
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "previewGif": "/project-thumbnail/coffeeroasters-preview.gif",
+      "previewGif": "/project/thumbnail/coffeeroasters-preview.gif",
       "name": "Coffeeroasters",
       "URL": "https://coffee-roasters-sigma.vercel.app/plan",
       "ghRepo": "https://github.com/BrandenDaniel/coffee-roasters",
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "previewGif": "/project-thumbnail/splitter-preview.gif",
+      "previewGif": "/project/thumbnail/splitter-preview.gif",
       "name": "Splitter",
       "URL": "https://frontend-mentor-tip-calculator-app-zeta.vercel.app/",
       "ghRepo": "https://github.com/BrandenDaniel/splitter",
@@ -41,7 +41,7 @@
       "techStack": ["HTML", "JavaScript", "CSS", "BEM", "Responsive"]
     },
     {
-      "previewGif": "/project-thumbnail/cryptoverse-preview.gif",
+      "previewGif": "/project/thumbnail/cryptoverse-preview.gif",
       "name": "Cryptoverse",
       "URL": "https://crypto-app-one-sepia.vercel.app/",
       "ghRepo": "https://github.com/BrandenDaniel/crypto-app",

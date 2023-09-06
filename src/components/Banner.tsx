@@ -7,8 +7,8 @@ const Banner = () => {
   return (
     <header className="banner">
       <div className="banner__bio">
-        <h1>hey, I'm branden 👋</h1>
-        <p>I'm a frontend developer, personal finance nerd, and minimalist.</p>
+        <h1>{`hey, I'm branden 👋`}</h1>
+        <p>{`I'm a frontend developer, personal finance nerd, and minimalist.`}</p>
         <div className="banner__links">
           <Socials />
           <a href="/" download>

@@ -8,20 +8,22 @@ export default function Loading() {
         <Skeleton variant="circular" width={160} height={160} />
       </div>
 
-      <div className="home__loader-bio">
-        <Skeleton variant="text" sx={{ fontSize: "28px" }} />
-        <Skeleton variant="text" sx={{ fontSize: "17px" }} />
-        <Skeleton variant="text" sx={{ fontSize: "17px", width: "50%" }} />
-      </div>
-
-      <div className="home__loader-socials">
-        <div>
-          <Skeleton variant="circular" width={23} height={23} />
-          <Skeleton variant="circular" width={23} height={23} />
-          <Skeleton variant="circular" width={23} height={23} />
+      <div>
+        <div className="home__loader-bio">
+          <Skeleton variant="text" sx={{ fontSize: "28px" }} />
+          <Skeleton variant="text" sx={{ fontSize: "17px" }} />
+          <Skeleton variant="text" sx={{ fontSize: "17px", width: "50%" }} />
         </div>
 
-        <Skeleton variant="text" sx={{ fontSize: "17px" }} width={100} />
+        <div className="home__loader-socials">
+          <div>
+            <Skeleton variant="circular" width={23} height={23} />
+            <Skeleton variant="circular" width={23} height={23} />
+            <Skeleton variant="circular" width={23} height={23} />
+          </div>
+
+          <Skeleton variant="text" sx={{ fontSize: "17px" }} width={100} />
+        </div>
       </div>
     </div>
   );

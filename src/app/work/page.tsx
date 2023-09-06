@@ -1,6 +1,7 @@
 import React from "react";
 import WorkData from "../../data/work-data.json";
 import WorkItem from "@/components/WorkItem";
+import Loading from "./loading";
 
 const page = () => {
   return (

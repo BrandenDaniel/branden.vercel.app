@@ -1,0 +1,56 @@
+.MuiSkeleton-root {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.skeleton {
+  &--card {
+    margin-top: 38px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 35px 15px;
+
+    &__thumbnail {
+      width: 100%;
+      aspect-ratio: 16/9;
+
+      > span {
+        height: 100%;
+      }
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 14px;
+
+      > span {
+        width: 125px;
+      }
+
+      &-desc {
+        > span {
+          &:last-child {
+            width: 75%;
+          }
+        }
+      }
+
+      &-stack {
+        display: flex;
+        gap: 12px;
+        > span {
+          width: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: $md) {
+  .skeleton {
+    &--card {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}

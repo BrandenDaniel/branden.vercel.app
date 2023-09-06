@@ -18,7 +18,6 @@ const Page = ({ params }: Params) => {
         <div className="caseStudy caseStudy--container">
           <Link href="/work" className="caseStudy__back">
             <CgArrowLeft />
-            Work
           </Link>
           <header>
             <h1>{selectedItem?.caseStudy.title}</h1>

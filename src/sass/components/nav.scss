@@ -7,15 +7,15 @@
 
   &--scroll-active {
     position: sticky;
-    top: 15px;
+    top: 18px;
     animation: 0.2s navFadeIn ease-in-out;
-    border: 1px solid rgba(212, 212, 212, 0.2);
+    border: 1px solid rgba(212, 212, 212, 0.15);
     background: rgba(21, 21, 21, 0.5);
     padding: 16px 25px;
     border-radius: 99px;
     backdrop-filter: blur(10px);
     max-width: 550px;
-    width: calc(100% - 30px);
+    width: calc(100% - 18px * 2);
 
     @keyframes navFadeIn {
       0% {

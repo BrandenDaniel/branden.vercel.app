@@ -1,4 +1,5 @@
+import Skeleton from "@/components/SkeletonUi";
+
 export default function Loading() {
-  // You can add any UI inside Loading, including a Skeleton.
-  return <span>Loading...</span>;
+  return <Skeleton />;
 }

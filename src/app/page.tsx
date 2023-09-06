@@ -6,7 +6,6 @@ import Link from "next/link";
 import { CgArrowRight } from "react-icons/cg";
 import ProjectData from "../data/proj-data.json";
 import WorkData from "../data/work-data.json";
-import Loading from "./loading";
 
 const page = () => {
   return (

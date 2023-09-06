@@ -46,6 +46,31 @@
       }
     }
   }
+
+  &__loader {
+    &-profile {
+      margin-bottom: 40px;
+    }
+
+    &-bio {
+      margin-bottom: 25px;
+      > span {
+        &:first-child {
+          margin-bottom: 25px;
+          max-width: 260px;
+        }
+      }
+    }
+
+    &-socials {
+      display: flex;
+      justify-content: space-between;
+      > div {
+        display: flex;
+        gap: 11px;
+      }
+    }
+  }
 }
 
 @media (min-width: $md) {

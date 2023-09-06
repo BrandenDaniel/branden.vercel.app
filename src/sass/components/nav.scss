@@ -11,7 +11,7 @@
     animation: 0.2s navFadeIn ease-in-out;
     border: 1px solid rgba(212, 212, 212, 0.2);
     background: rgba(21, 21, 21, 0.5);
-    padding: 12px 22px;
+    padding: 19px 29px;
     border-radius: 99px;
     backdrop-filter: blur(10px);
     max-width: 550px;
@@ -51,5 +51,9 @@
 @media (min-width: $md) {
   .nav {
     margin-bottom: 60px;
+
+    &--scroll-active {
+      padding: 14px 26px;
+    }
   }
 }

@@ -4,7 +4,7 @@ import ProjectItem from "@/components/ProjectItem";
 
 const page = () => {
   return (
-    <section className="projects">
+    <section className="projects container">
       <h1>Projects</h1>
 
       <div className="projects__items">

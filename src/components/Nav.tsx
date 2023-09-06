@@ -1,14 +1,29 @@
+"use client";
+
 import Link from "next/link";
-import React from "react";
-import logo from "../images/bn-logo.png";
-import Image from "next/image";
 
 const Nav = () => {
+  const scrollFunction = () => {
+    if (
+      document.body.scrollTop > 100 ||
+      document.documentElement.scrollTop > 100
+    ) {
+      document.querySelector("nav")!.classList.add("nav--scroll-active");
+    } else {
+      document.querySelector("nav")!.classList.remove("nav--scroll-active");
+    }
+  };
+
+  if (typeof window !== "undefined") {
+    window.onscroll = function () {
+      scrollFunction();
+    };
+  }
+
   return (
-    <nav className="nav">
+    <nav className="nav container">
       <Link href="/" className="nav__home">
-        {/* <Image src={logo} alt="Branden ng home" /> */}
-        BN.
+        bn.
       </Link>
 
       <ul className="nav__links">

@@ -1,4 +1,78 @@
 .caseStudy {
+  &--container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 25px;
+  }
+
+  &__back {
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+    gap: 4px;
+    margin: 0 0 20px 3px;
+    background: rgba(21, 21, 21, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 4px;
+    position: sticky;
+    top: 71px;
+    padding: 3px 5px 3px 3px;
+
+    svg {
+      font-size: 17px;
+    }
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    h1 {
+      font-size: 24px;
+      font-weight: 500;
+    }
+
+    p {
+      line-height: 1.5;
+    }
+  }
+
+  &__details {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+
+    > div {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 12px;
+      span {
+        font-size: 13px;
+        opacity: 0.5;
+      }
+    }
+  }
+
+  &__preview {
+    margin-top: 50px;
+
+    h2 {
+      font-size: 19px;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+
+    > div {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
 }
 
 .work-not-found {
@@ -8,5 +82,17 @@
   a {
     display: block;
     text-decoration: underline;
+  }
+}
+
+@media (min-width: $md) {
+  .caseStudy {
+    &__back {
+      top: 27px;
+
+      &--stuck {
+        margin-left: 15px;
+      }
+    }
   }
 }

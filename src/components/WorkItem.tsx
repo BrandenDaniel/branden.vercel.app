@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 type Props = {
+  id: string;
   thumbnail: string;
   thumbnailPosition?: string;
   title: string;
@@ -10,29 +11,31 @@ type Props = {
   techStack: string[];
 };
 
-const ProjectItem = (props: Props) => {
+const workItem = (props: Props) => {
   return (
-    <div className="projectItem">
-      <div className="projectItem__thumbnail">
-        <Image
-          src={props.thumbnail}
-          alt={props.title}
-          fill={true}
-          style={{
-            objectPosition: props.thumbnailPosition
-              ? props.thumbnailPosition
-              : "center",
-          }}
-        />
+    <div className="workItem">
+      <div className="workItem__thumbnail">
+        <Link href={`work/${props.id}`}>
+          <Image
+            src={props.thumbnail}
+            alt={props.title}
+            fill={true}
+            style={{
+              objectPosition: props.thumbnailPosition
+                ? props.thumbnailPosition
+                : "center",
+            }}
+          />
+        </Link>
       </div>
-      <div className="projectItem__content">
-        <div className="projectItem__content-name">
+      <div className="workItem__content">
+        <div className="workItem__content-name">
           <p>{props.title}</p>
         </div>
         {props.shortDesc && (
-          <p className="projectItem__content-desc">{props.shortDesc}</p>
+          <p className="workItem__content-desc">{props.shortDesc}</p>
         )}
-        <div className="projectItem__content-tech">
+        <div className="workItem__content-tech">
           {props.techStack.map((item) => (
             <span key={item}>{item}</span>
           ))}
@@ -42,4 +45,4 @@ const ProjectItem = (props: Props) => {
   );
 };
 
-export default ProjectItem;
+export default workItem;

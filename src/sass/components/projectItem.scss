@@ -1,10 +1,11 @@
-.projectItem {
+.projectItem,
+.workItem {
   display: flex;
   flex-direction: column;
 
   &__thumbnail {
     position: relative;
-    height: 180px;
+    height: 200px;
   }
   img {
     object-fit: cover;
@@ -65,6 +66,16 @@
         font-size: 13px;
         opacity: 0.5;
       }
+    }
+  }
+}
+
+@media (min-width: $md) {
+  .projectItem,
+  .workItem {
+    &__thumbnail {
+      position: relative;
+      height: 180px;
     }
   }
 }

@@ -9,7 +9,7 @@ import WorkData from "../data/work-data.json";
 
 const page = () => {
   return (
-    <div className="home">
+    <div className="home container">
       <Banner />
       <TechStack />
 
@@ -54,6 +54,7 @@ const page = () => {
                 i < 2 && (
                   <WorkItem
                     key={item.caseStudy.title}
+                    id={item.caseStudy.id}
                     thumbnail={item.caseStudy.thumbnail}
                     thumbnailPosition={item.caseStudy.thumbnailPosition}
                     title={item.caseStudy.title}

@@ -1,11 +1,13 @@
 .banner {
   display: flex;
   justify-content: space-between;
+  flex-direction: column-reverse;
+  gap: 40px 20px;
 
   &__bio {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
     h1 {
       font-size: 28px;
     }
@@ -20,11 +22,12 @@
     overflow: hidden;
     border-radius: 50%;
     background-color: #242424;
-    flex-basis: 170px;
-    min-width: 170px;
+    flex-basis: 160px;
+    width: 160px;
+    height: 160px;
     img {
       max-width: 100%;
-      height: auto;
+      height: 100%;
       transform: scale(1.1);
     }
   }
@@ -55,6 +58,19 @@
       &:hover {
         text-decoration: underline;
       }
+    }
+  }
+}
+
+@media (min-width: $md) {
+  .banner {
+    flex-direction: row;
+
+    &__picture {
+      flex-basis: 170px;
+      min-width: 170px;
+      width: 170px;
+      height: 170px;
     }
   }
 }

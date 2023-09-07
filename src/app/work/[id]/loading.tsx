@@ -4,44 +4,52 @@ export default function Loading() {
   // You can add any UI inside Loading, including a Skeleton.
   return (
     <div className="skeleton skeleton--caseStudy">
-      <Skeleton
-        variant="circular"
-        width={35}
-        height={35}
-        sx={{ marginBottom: "20px" }}
-      />
+      <div>
+        <Skeleton
+          variant="circular"
+          width={35}
+          height={35}
+          sx={{ marginBottom: "20px" }}
+        />
 
-      <div className="skeleton--caseStudy__header">
-        <Skeleton variant="text" sx={{ fontSize: "28px", width: "150px" }} />
-
-        <div>
-          <Skeleton variant="text" sx={{ fontSize: "19px" }} />
-          <Skeleton variant="text" sx={{ fontSize: "19px" }} />
-          <Skeleton variant="text" sx={{ fontSize: "19px" }} />
-          <Skeleton variant="text" sx={{ fontSize: "19px", width: "50%" }} />
-        </div>
-
-        <div>
-          <Skeleton variant="text" sx={{ fontSize: "19px" }} />
-          <Skeleton variant="text" sx={{ fontSize: "19px" }} />
-          <Skeleton variant="text" sx={{ fontSize: "19px" }} />
-          <Skeleton variant="text" sx={{ fontSize: "19px", width: "50%" }} />
-        </div>
-
-        <div className="skeleton--caseStudy__stack">
-          <Skeleton variant="text" sx={{ fontSize: "19px", width: "40px" }} />
-          <Skeleton variant="text" sx={{ fontSize: "12px", width: "30px" }} />
-          <Skeleton variant="text" sx={{ fontSize: "12px", width: "30px" }} />
-          <Skeleton variant="text" sx={{ fontSize: "12px", width: "30px" }} />
-          <Skeleton variant="text" sx={{ fontSize: "12px", width: "30px" }} />
-          <Skeleton variant="text" sx={{ fontSize: "12px", width: "30px" }} />
-        </div>
-
-        <div className="skeleton--caseStudy__preview">
+        <div className="skeleton--caseStudy__header">
           <Skeleton variant="text" sx={{ fontSize: "28px", width: "150px" }} />
-          <Skeleton variant="rectangular" sx={{ height: "350px" }} />
-          <Skeleton variant="rectangular" sx={{ height: "350px" }} />
+
+          <div>
+            <Skeleton variant="text" sx={{ fontSize: "19px" }} />
+            <Skeleton variant="text" sx={{ fontSize: "19px" }} />
+            <Skeleton variant="text" sx={{ fontSize: "19px" }} />
+            <Skeleton variant="text" sx={{ fontSize: "19px", width: "50%" }} />
+          </div>
+
+          <div>
+            <Skeleton variant="text" sx={{ fontSize: "19px" }} />
+            <Skeleton variant="text" sx={{ fontSize: "19px" }} />
+            <Skeleton variant="text" sx={{ fontSize: "19px" }} />
+            <Skeleton variant="text" sx={{ fontSize: "19px", width: "50%" }} />
+          </div>
+
+          <div className="skeleton--caseStudy__stack">
+            <Skeleton variant="text" sx={{ fontSize: "19px", width: "40px" }} />
+            <Skeleton variant="text" sx={{ fontSize: "12px", width: "30px" }} />
+            <Skeleton variant="text" sx={{ fontSize: "12px", width: "30px" }} />
+            <Skeleton variant="text" sx={{ fontSize: "12px", width: "30px" }} />
+            <Skeleton variant="text" sx={{ fontSize: "12px", width: "30px" }} />
+            <Skeleton variant="text" sx={{ fontSize: "12px", width: "30px" }} />
+          </div>
         </div>
+      </div>
+
+      <div className="skeleton--caseStudy__preview">
+        <Skeleton variant="text" sx={{ fontSize: "28px", width: "150px" }} />
+        <Skeleton
+          variant="rectangular"
+          sx={{ aspectRatio: "16/9", width: "100%", height: "100%" }}
+        />
+        <Skeleton
+          variant="rectangular"
+          sx={{ aspectRatio: "16/9", width: "100%", height: "100%" }}
+        />{" "}
       </div>
     </div>
   );

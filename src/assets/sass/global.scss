@@ -38,7 +38,7 @@ main {
   &:has(.nav--scroll-active) {
     .caseStudy__back {
       max-width: 550px;
-      padding-left: 15px;
+      padding-left: 14px;
     }
   }
 }
@@ -62,7 +62,7 @@ img {
 
     &:has(.nav--scroll-active) {
       .caseStudy__back {
-        padding-left: 22px;
+        padding-left: 23px;
       }
     }
   }

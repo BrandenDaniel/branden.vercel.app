@@ -48,8 +48,12 @@
 
   &--caseStudy {
     padding: 0 25px;
-    max-width: 900px;
-    margin: 0 auto;
+
+    > div {
+      max-width: 580px;
+      margin: 0 auto;
+    }
+
     &__header {
       display: flex;
       flex-direction: column;
@@ -64,7 +68,8 @@
     }
 
     &__preview {
-      margin-top: 30px;
+      max-width: 900px !important;
+      margin: 50px auto 0 auto !important;
       display: flex;
       flex-direction: column;
       gap: 10px;

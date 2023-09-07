@@ -2,6 +2,7 @@ import WorkData from "../../../data/work-data.json";
 import Link from "next/link";
 import Image from "next/image";
 import { CgArrowLeft } from "react-icons/cg";
+import Loading from "./loading";
 
 type Params = {
   params: {

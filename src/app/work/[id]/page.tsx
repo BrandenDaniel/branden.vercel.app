@@ -21,7 +21,9 @@ const Page = ({ params }: Params) => {
           </Link>
           <header>
             <h1>{selectedItem?.caseStudy.title}</h1>
-            <p>{selectedItem?.caseStudy.longDesc}</p>
+            {selectedItem?.caseStudy.longDesc.map((item) => (
+              <p key={item}>{item}</p>
+            ))}
             <div className="caseStudy__details">
               <span>{selectedItem?.caseStudy.year}</span>
               <div>

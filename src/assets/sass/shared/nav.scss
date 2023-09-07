@@ -39,6 +39,16 @@
     align-items: center;
     gap: 15px;
     a {
+      &.active {
+        background: rgba(212, 212, 212, 0.15);
+        padding: 3px 6px;
+        border-radius: 4px;
+
+        &:hover {
+          text-decoration: none !important;
+        }
+      }
+
       &:hover {
         text-decoration: underline;
       }

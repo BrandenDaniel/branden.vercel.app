@@ -2,9 +2,12 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 
 const Nav = () => {
   const [isScrollActive, setIsScrollActive] = useState(false);
+
+  const pathname = usePathname();
 
   const scrollFunction = () => {
     if (
@@ -36,12 +39,20 @@ const Nav = () => {
 
         <ul className="nav__links">
           <li>
-            <Link href="/projects" tabIndex={isScrollActive ? 0 : -1}>
+            <Link
+              href="/projects"
+              tabIndex={isScrollActive ? 0 : -1}
+              className={pathname == "/projects" ? "active" : ""}
+            >
               Projects
             </Link>
           </li>
           <li>
-            <Link href="/work" tabIndex={isScrollActive ? 0 : -1}>
+            <Link
+              href="/work"
+              tabIndex={isScrollActive ? 0 : -1}
+              className={pathname == "/work" ? "active" : ""}
+            >
               Work
             </Link>
           </li>
@@ -55,12 +66,20 @@ const Nav = () => {
 
         <ul className="nav__links">
           <li>
-            <Link href="/projects" tabIndex={isScrollActive ? -1 : 0}>
+            <Link
+              href="/projects"
+              tabIndex={isScrollActive ? -1 : 0}
+              className={pathname == "/projects" ? "active" : ""}
+            >
               Projects
             </Link>
           </li>
           <li>
-            <Link href="/work" tabIndex={isScrollActive ? -1 : 0}>
+            <Link
+              href="/work"
+              tabIndex={isScrollActive ? -1 : 0}
+              className={pathname == "/work" ? "active" : ""}
+            >
               Work
             </Link>
           </li>

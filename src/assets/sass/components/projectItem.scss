@@ -6,11 +6,18 @@
   &__thumbnail {
     position: relative;
     width: 100%;
-    aspect-ratio: 16/9;
-  }
-  img {
-    object-fit: cover;
     display: block;
+    aspect-ratio: 16/9;
+
+    &:focus-within {
+      img {
+        outline: 2px solid var(--body);
+      }
+    }
+    img {
+      object-fit: cover;
+      display: block;
+    }
   }
 
   &__content {

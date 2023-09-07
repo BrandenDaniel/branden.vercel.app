@@ -51,7 +51,7 @@ const Nav = () => {
             <Link
               href="/work"
               tabIndex={isScrollActive ? 0 : -1}
-              className={pathname == "/work" ? "active" : ""}
+              className={pathname.includes("work") ? "active" : ""}
             >
               Work
             </Link>
@@ -78,7 +78,7 @@ const Nav = () => {
             <Link
               href="/work"
               tabIndex={isScrollActive ? -1 : 0}
-              className={pathname == "/work" ? "active" : ""}
+              className={pathname.includes("work") ? "active" : ""}
             >
               Work
             </Link>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -5,9 +6,9 @@ const Footer = () => {
 
   return (
     <footer className="footer container">
-      <p>
+      <Link href="/">
         bn. <span>{currentDate.getFullYear()}</span>
-      </p>
+      </Link>
     </footer>
   );
 };

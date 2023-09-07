@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Ubuntu } from "next/font/google";
 import "../assets/sass/main.scss";
-import Nav from "@/components/Nav";
-import Footer from "@/components/Footer";
+import Nav from "@/components/shared/Nav";
+import Footer from "@/components/shared/Footer";
 
 const ubuntu = Ubuntu({
   subsets: ["latin"],

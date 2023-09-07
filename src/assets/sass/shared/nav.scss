@@ -5,10 +5,11 @@
   margin-bottom: 40px;
   z-index: 1;
 
-  &--scroll-active {
-    position: sticky;
+  &--scroll {
+    position: fixed;
     top: 18px;
-    animation: 0.2s navFadeIn ease-in-out;
+    left: 50%;
+    transform: translate(-50%, -15px);
     border: 1px solid rgba(212, 212, 212, 0.15);
     background: rgba(21, 21, 21, 0.5);
     padding: 16px 25px;
@@ -16,17 +17,14 @@
     backdrop-filter: blur(10px);
     max-width: 550px;
     width: calc(100% - 18px * 2);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.1s ease-in-out;
 
-    @keyframes navFadeIn {
-      0% {
-        opacity: 0;
-        transform: translateY(-10px);
-      }
-
-      100% {
-        transform: translateY(0);
-        opacity: 1;
-      }
+    &-active {
+      opacity: 1;
+      pointer-events: all;
+      transform: translate(-50%, 0px);
     }
   }
 

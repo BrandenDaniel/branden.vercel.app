@@ -28,12 +28,16 @@ body {
 
 .container {
   max-width: 630px;
+  width: 100%;
   padding: 0 25px;
   margin: 0 auto;
 }
 
 main {
   padding: 25px 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
 
   &:has(.nav--scroll-active) {
     .caseStudy__back {
@@ -58,8 +62,6 @@ img {
 
 @media (min-width: $md) {
   main {
-    padding: 30px 0;
-
     &:has(.nav--scroll-active) {
       .caseStudy__back {
         padding-left: 23px;

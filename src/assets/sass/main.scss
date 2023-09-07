@@ -2,12 +2,15 @@
 @import "./global.scss";
 
 // components
-@import "./components/nav.scss";
 @import "./components/banner.scss";
 @import "./components/socials.scss";
 @import "./components/techstack.scss";
 @import "./components/projectItem.scss";
 @import "./components/skeleton.scss";
+
+// shared
+@import "./shared/nav.scss";
+@import "./shared/footer.scss";
 
 // pages
 @import "./pages/home.scss";

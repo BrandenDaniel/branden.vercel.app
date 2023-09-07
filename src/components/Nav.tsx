@@ -1,16 +1,19 @@
 "use client";
 
 import Link from "next/link";
+import { useState } from "react";
 
 const Nav = () => {
+  const [isScrollActive, setIsScrollActive] = useState(false);
+
   const scrollFunction = () => {
     if (
       document.body.scrollTop > 100 ||
       document.documentElement.scrollTop > 100
     ) {
-      document.querySelector("nav")!.classList.add("nav--scroll-active");
+      setIsScrollActive(true);
     } else {
-      document.querySelector("nav")!.classList.remove("nav--scroll-active");
+      setIsScrollActive(false);
     }
   };
 
@@ -21,20 +24,49 @@ const Nav = () => {
   }
 
   return (
-    <nav className="nav container">
-      <Link href="/" className="nav__home">
-        bn.
-      </Link>
+    <>
+      <nav
+        className={`nav container nav--scroll ${
+          isScrollActive ? "nav--scroll-active" : ""
+        }`}
+      >
+        <Link href="/" className="nav__home" tabIndex={isScrollActive ? 0 : -1}>
+          bn.
+        </Link>
 
-      <ul className="nav__links">
-        <li>
-          <Link href="/projects">Projects</Link>
-        </li>
-        <li>
-          <Link href="/work">Work</Link>
-        </li>
-      </ul>
-    </nav>
+        <ul className="nav__links">
+          <li>
+            <Link href="/projects" tabIndex={isScrollActive ? 0 : -1}>
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link href="/work" tabIndex={isScrollActive ? 0 : -1}>
+              Work
+            </Link>
+          </li>
+        </ul>
+      </nav>
+
+      <nav className="nav container">
+        <Link href="/" className="nav__home" tabIndex={isScrollActive ? -1 : 0}>
+          bn.
+        </Link>
+
+        <ul className="nav__links">
+          <li>
+            <Link href="/projects" tabIndex={isScrollActive ? -1 : 0}>
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link href="/work" tabIndex={isScrollActive ? -1 : 0}>
+              Work
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    </>
   );
 };
 

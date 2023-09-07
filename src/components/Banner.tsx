@@ -1,7 +1,7 @@
 import Image from "next/image";
-import React from "react";
-import profilePic from "../images/profile.png";
+import profilePic from "../assets/images/profile.png";
 import Socials from "./Socials";
+import Link from "next/link";
 
 const Banner = () => {
   return (
@@ -11,9 +11,9 @@ const Banner = () => {
         <p>{`I'm a frontend developer, personal finance nerd, and minimalist.`}</p>
         <div className="banner__links">
           <Socials />
-          <a href="/" download>
+          <Link href="/docs/CV.pdf" target="_blank" download>
             download cv.
-          </a>
+          </Link>
         </div>
       </div>
       <div className="banner__picture">

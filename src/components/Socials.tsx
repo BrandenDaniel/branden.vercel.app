@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 import { FaGithub } from "react-icons/fa6";
 import { MdAlternateEmail } from "react-icons/md";
 import { SlSocialLinkedin } from "react-icons/sl";

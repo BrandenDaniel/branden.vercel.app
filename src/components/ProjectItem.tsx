@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import { IoLinkOutline } from "react-icons/io5";
 import { TbBrandGithub } from "react-icons/tb";
 

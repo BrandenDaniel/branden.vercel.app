@@ -16,9 +16,11 @@ const Page = ({ params }: Params) => {
     <>
       {selectedItem ? (
         <div className="caseStudy caseStudy--container">
-          <Link href="/work" className="caseStudy__back">
-            <CgArrowLeft />
-          </Link>
+          <div className="caseStudy__back">
+            <Link href="/work">
+              <CgArrowLeft />
+            </Link>
+          </div>
           <header>
             <h1>{selectedItem?.caseStudy.title}</h1>
             {selectedItem?.caseStudy.longDesc.map((item) => (

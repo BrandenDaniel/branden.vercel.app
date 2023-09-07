@@ -18,12 +18,10 @@ export default function Loading() {
           <Skeleton variant="text" sx={{ fontSize: "19px" }} />
           <Skeleton variant="text" sx={{ fontSize: "19px" }} />
           <Skeleton variant="text" sx={{ fontSize: "19px" }} />
-          <Skeleton variant="text" sx={{ fontSize: "19px" }} />
           <Skeleton variant="text" sx={{ fontSize: "19px", width: "50%" }} />
         </div>
 
         <div>
-          <Skeleton variant="text" sx={{ fontSize: "19px" }} />
           <Skeleton variant="text" sx={{ fontSize: "19px" }} />
           <Skeleton variant="text" sx={{ fontSize: "19px" }} />
           <Skeleton variant="text" sx={{ fontSize: "19px" }} />
@@ -37,6 +35,12 @@ export default function Loading() {
           <Skeleton variant="text" sx={{ fontSize: "12px", width: "30px" }} />
           <Skeleton variant="text" sx={{ fontSize: "12px", width: "30px" }} />
           <Skeleton variant="text" sx={{ fontSize: "12px", width: "30px" }} />
+        </div>
+
+        <div className="skeleton--caseStudy__preview">
+          <Skeleton variant="text" sx={{ fontSize: "28px", width: "150px" }} />
+          <Skeleton variant="rectangular" sx={{ height: "350px" }} />
+          <Skeleton variant="rectangular" sx={{ height: "350px" }} />
         </div>
       </div>
     </div>

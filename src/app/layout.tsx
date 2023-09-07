@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Ubuntu } from "next/font/google";
-import "../sass/main.scss";
+import "../assets/sass/main.scss";
 import Nav from "@/components/Nav";
 
 const ubuntu = Ubuntu({

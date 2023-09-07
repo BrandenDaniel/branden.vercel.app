@@ -2,10 +2,10 @@ import Banner from "@/components/Banner";
 import ProjectItem from "@/components/ProjectItem";
 import WorkItem from "@/components/WorkItem";
 import TechStack from "@/components/TechStack";
-import Link from "next/link";
-import { CgArrowRight } from "react-icons/cg";
 import ProjectData from "../data/proj-data.json";
 import WorkData from "../data/work-data.json";
+import Link from "next/link";
+import { CgArrowRight } from "react-icons/cg";
 
 const page = () => {
   return (

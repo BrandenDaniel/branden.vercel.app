@@ -38,13 +38,6 @@ main {
   display: flex;
   flex-direction: column;
   min-height: 100dvh;
-
-  &:has(.nav--scroll-active) {
-    .caseStudy__back {
-      max-width: 550px;
-      padding-left: 14px;
-    }
-  }
 }
 
 a {
@@ -64,7 +57,7 @@ img {
   main {
     &:has(.nav--scroll-active) {
       .caseStudy__back {
-        padding-left: 23px;
+        padding-left: 55px;
       }
     }
   }

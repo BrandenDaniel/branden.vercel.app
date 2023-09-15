@@ -1,6 +1,7 @@
 .caseStudy {
   &--container {
-    max-width: 900px;
+    max-width: 1000px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 25px;
   }
@@ -8,8 +9,6 @@
   &__back {
     max-width: 580px;
     margin: 0 auto;
-    top: 84px;
-    position: sticky;
 
     a {
       display: inline-flex;
@@ -100,7 +99,8 @@
 @media (min-width: $md) {
   .caseStudy {
     &__back {
-      top: 37px;
+      position: sticky;
+      top: 28px;
     }
   }
 }

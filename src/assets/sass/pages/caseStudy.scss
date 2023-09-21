@@ -27,7 +27,8 @@
       }
 
       &:hover {
-        border: 1px dashed rgba(212, 212, 212, 0.6);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        background: rgba(255, 255, 255, 0.1);
       }
     }
   }

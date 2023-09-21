@@ -10,8 +10,23 @@
     gap: 5px;
     font-size: 13px;
 
+    &:hover {
+      &:first-child {
+        svg {
+          translate: -5px 0;
+        }
+      }
+
+      &:last-child {
+        svg {
+          translate: 5px 0;
+        }
+      }
+    }
+
     svg {
       font-size: 16px;
+      transition: 0.3s ease;
     }
   }
 }

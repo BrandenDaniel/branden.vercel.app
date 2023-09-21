@@ -1,6 +1,24 @@
 {
   "projects": [
     {
+      "previewGif": "/project/thumbnail/dictionary-app-thumbnail.gif",
+      "postion": "center top",
+      "name": "Dictionary app",
+      "URL": "https://dictionary-app-swart-six.vercel.app/",
+      "ghRepo": "https://github.com/BrandenDaniel/dictionary-app",
+      "desc": "A fully functional and responsive dictionary web app. Light/dark mode set to user device preference.",
+      "techStack": [
+        "React.js",
+        "Next.js",
+        "TypeScript",
+        "JavaScript",
+        "Fetch API",
+        "SASS/SCSS",
+        "BEM",
+        "Responsive"
+      ]
+    },
+    {
       "previewGif": "/project/thumbnail/devjobs-preview.gif",
       "postion": "center top",
       "name": "devjobs",

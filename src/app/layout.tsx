@@ -3,6 +3,7 @@ import { Ubuntu } from "next/font/google";
 import "../assets/sass/main.scss";
 import Nav from "@/components/shared/Nav";
 import Footer from "@/components/shared/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 const ubuntu = Ubuntu({
   subsets: ["latin"],
@@ -27,6 +28,7 @@ export default function RootLayout({
           {children}
           <Footer />
         </main>
+        <Analytics />
       </body>
     </html>
   );

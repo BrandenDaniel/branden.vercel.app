@@ -6,7 +6,7 @@
       "name": "Dictionary app",
       "URL": "https://dictionary-app-swart-six.vercel.app/",
       "ghRepo": "https://github.com/BrandenDaniel/dictionary-app",
-      "desc": "A fully functional and responsive dictionary web app. Light/dark mode set to user device preference.",
+      "desc": "A fully functional and responsive dictionary web app. Light/dark mode set to user's device preference + font family stored in local storage.",
       "techStack": [
         "React.js",
         "Next.js",

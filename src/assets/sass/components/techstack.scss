@@ -8,6 +8,7 @@
     gap: 22px;
 
     p {
+      font-size: 14px;
       span {
         font-size: 13px;
         display: block;
@@ -21,7 +22,7 @@
 @media (min-width: $md) {
   .techStack {
     > div {
-      gap: 30px;
+      gap: 34px;
     }
   }
 }

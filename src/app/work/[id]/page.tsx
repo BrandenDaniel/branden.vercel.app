@@ -2,7 +2,7 @@ import WorkData from "../../../data/work-data.json";
 import Link from "next/link";
 import Image from "next/image";
 import { CgArrowLeft } from "react-icons/cg";
-import Loading from "./loading";
+import Slider from "@/components/Slider";
 
 type Params = {
   params: {
@@ -12,7 +12,6 @@ type Params = {
 
 const Page = ({ params }: Params) => {
   const selectedItem = WorkData.find((item) => item.caseStudy.id === params.id);
-
   return (
     <>
       {selectedItem ? (
@@ -36,10 +35,13 @@ const Page = ({ params }: Params) => {
                   ))}
               </div>
             </div>
+            <Slider
+              previousWork={selectedItem.caseStudy.previousWork}
+              nextWork={selectedItem.caseStudy.nextWork}
+            />
           </header>
-
           <div className="caseStudy__preview">
-            <h2>Static preview</h2>
+            <h2>Static preview </h2>
 
             <div>
               {selectedItem &&
@@ -53,6 +55,10 @@ const Page = ({ params }: Params) => {
                   />
                 ))}
             </div>
+            <Slider
+              previousWork={selectedItem.caseStudy.previousWork}
+              nextWork={selectedItem.caseStudy.nextWork}
+            />
           </div>
         </div>
       ) : (

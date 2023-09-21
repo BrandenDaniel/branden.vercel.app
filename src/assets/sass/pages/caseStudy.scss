@@ -3,7 +3,7 @@
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 25px;
+    padding: 0 23px;
   }
 
   &__back {
@@ -35,7 +35,7 @@
   header {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
     max-width: 580px;
     margin: 0 auto;
     h1 {
@@ -65,12 +65,14 @@
   }
 
   &__preview {
-    margin-top: 50px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
 
     h2 {
       font-size: 19px;
       font-weight: 500;
-      margin-bottom: 20px;
     }
 
     > div {

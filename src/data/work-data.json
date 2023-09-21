@@ -2,7 +2,6 @@
   {
     "caseStudy": {
       "id": "my-sal-pack",
-
       "title": "MySalPack",
       "thumbnail": "/work/thumbnail/msp-dashboard-desktop.png",
       "thumbnailPosition": "center top",
@@ -10,8 +9,8 @@
       "year": "2023",
       "shortDesc": "Customer portal for salary packaging and novated leasing, offering secure access and account management.",
       "longDesc": [
-        "A web portal built from the ground up - a fully customised customer portal for a leading company in the salary packaging and novated leasing industry. The portal provides clients with secure access to their salary packaging and novated leasing details.",
-        "Built from scratch with custom designs, our team of dedicated developers ensured a seamless user experience and robust functionality. The portal empowers customers to conveniently manage their accounts, view transaction history, and access relevant documents, enhancing their overall experience with the company's services."
+        "MySalPack is a bespoke customer portal tailored for the salary packaging and novated leasing industry. Our team crafted this portal from scratch, incorporating custom designs and ensuring a seamless user experience. Clients gain secure access to manage their accounts, view transaction history, and access relevant documents, elevating their interaction with the company's services.",
+        "Built from the ground up, this fully customised customer portal empowers clients in the salary packaging and novated leasing sector. Our dedicated team of developers ensured not only a seamless user experience but also robust functionality. Clients can conveniently manage their accounts, review transaction history, and access vital documents, greatly enhancing their overall experience with the company's services."
       ],
       "snapshot": [
         "/work/snapshots/my-sal-pack/msp-login-desktop.png",
@@ -30,7 +29,9 @@
         "/work/snapshots/my-sal-pack/msp-benefits-2-mobile.png",
         "/work/snapshots/my-sal-pack/msp-menu-mobile.png"
       ],
-      "techStack": ["HTML", "CSS", "Sass", "JavaScript", "jQuery", "Blazor"]
+      "techStack": ["HTML", "CSS", "Sass", "JavaScript", "jQuery", "Blazor"],
+      "previousWork": ["perfect-cotton", "Perfect Cotton"],
+      "nextWork": ["print-strategy-management", "Print Strategy Management"]
     }
   },
   {
@@ -43,15 +44,17 @@
       "year": "2019",
       "shortDesc": "Website built for a print client, showcasing products and enabling seamless online ordering.",
       "longDesc": [
-        "Our team developed and designed a bespoke website for a prominent hard copy printing client. The website showcases their extensive range of print products and provides a seamless user experience for customers to explore and order their desired items.",
-        "We incorporated a user-friendly interface, allowing visitors to easily navigate through various product categories and access detailed information. The result is a visually stunning and functional website that enhances the client's online presence and facilitates efficient print product transactions."
+        "Print Strategy Management features a custom website designed exclusively for a leading hard copy printing client. It showcases an extensive range of print products and offers a user-friendly experience for exploring and ordering items. The end result is a visually stunning and functional website that bolsters the client's online presence and streamlines print product transactions.",
+        "Our team's expertise shines through in the development of this bespoke website for a prominent hard copy printing client. The website not only highlights the client's vast print product range but also provides a seamless user experience. Visitors can easily navigate various product categories and access detailed information, making it a visually appealing and efficient platform for print product transactions."
       ],
       "snapshot": [
         "/work/snapshots/print-strategy-management/psm-home.png",
         "/work/snapshots/print-strategy-management/psm-products.png",
         "/work/snapshots/print-strategy-management/psm-about.png"
       ],
-      "techStack": ["HTML", "CSS", "WordPress", "JavaScript", "jQuery"]
+      "techStack": ["HTML", "CSS", "WordPress", "JavaScript", "jQuery"],
+      "previousWork": ["my-sal-pack", "MySalPack"],
+      "nextWork": ["kader-boot-co", "Kader Boot Co."]
     }
   },
   {
@@ -64,15 +67,20 @@
       "year": "2019",
       "shortDesc": "Website showcasing premium leather boots with immersive design and seamless online shopping experience.",
       "longDesc": [
-        "We created a bespoke WordPress website for a client specializing in premium leather boots. The website showcases their exquisite collection, featuring stunning product imagery and detailed descriptions.",
-        "The site offers a unique seamless navigation of products and an intuitive interface, allowing customers to explore different boot styles and make purchases easily. Our custom design highlights the craftsmanship and luxury of the brand, providing an immersive online shopping experience for footwear enthusiasts."
+        "Kader Boot Co. presents a unique WordPress website, custom-crafted for a premium leather boot specialist. The site showcases an exquisite collection with captivating product imagery and detailed descriptions. Its intuitive interface facilitates seamless exploration of different boot styles, delivering an immersive online shopping experience for footwear enthusiasts.",
+        "With a focus on premium leather boots, Kader Boot Co.'s WordPress website stands out. It boasts captivating product imagery, detailed descriptions, and an intuitive interface for easy exploration of various boot styles. This custom design highlights the craftsmanship and luxury of the brand, providing an immersive online shopping experience tailored to footwear enthusiasts."
       ],
       "snapshot": [
         "/work/snapshots/kader-boot-co/kader-home.png",
         "/work/snapshots/kader-boot-co/kader-shop.png",
         "/work/snapshots/kader-boot-co/kader-about.png"
       ],
-      "techStack": ["HTML", "CSS", "WordPress", "jQuery"]
+      "techStack": ["HTML", "CSS", "WordPress", "jQuery"],
+      "previousWork": [
+        "print-strategy-management",
+        "Print Strategy Management"
+      ],
+      "nextWork": ["annie-pirotta", "Annie Pirotta"]
     }
   },
   {
@@ -85,13 +93,16 @@
       "year": "2019",
       "shortDesc": "Custom-built website for musician Annie, featuring her digital products, courtesy of Bebble competition.",
       "longDesc": [
-        "Annie, a talented musician, won a competition by held by Bebble and received a free custom website. The website showcases Annie's digital products and highlights her musical journey, providing a captivating online presence for her fans and customers."
+        "Annie Pirotta, a talented musician, now boasts a custom-built website that showcases her digital products and musical journey. As a result of winning a competition held by Bebble, Annie's website offers a captivating online presence for her fans and customers.",
+        "The website designed for Annie Pirotta, a talented musician, is a testament to her digital products and musical journey. It's the result of her victory in a competition held by Bebble. This website not only captivates her fans but also offers a captivating online presence for her customers, providing a unique platform for her digital products."
       ],
       "snapshot": [
         "/work/snapshots/annie-pirotta/anniepirotta-home.png",
         "/work/snapshots/annie-pirotta/anniepirotta-sym.png"
       ],
-      "techStack": ["HTML", "CSS", "WordPress", "jQuery"]
+      "techStack": ["HTML", "CSS", "WordPress", "jQuery"],
+      "previousWork": ["kader-boot-co", "Kader Boot Co."],
+      "nextWork": ["my-blind-spots", "My Blind Spots"]
     }
   },
   {
@@ -104,11 +115,13 @@
       "year": "2019",
       "shortDesc": "Website featuring a questionnaire to foster personal growth and improved relationships.",
       "longDesc": [
-        "We created a custom website for a client in the mental health sector, providing a point of contact for her customers.",
-        "The website features a simple questionnaire designed to outline personality types, aiming to prevent bad habits and foster stronger relationships. It serves as a valuable tool for personal growth and improved interpersonal connections."
+        "My Blind Spots introduces a custom website designed for a client in the mental health sector. It serves as a point of contact for customers and features a simple questionnaire to outline personality types, fostering personal growth and improved relationships. This website is a valuable tool for enhancing interpersonal connections.",
+        "In the mental health sector, My Blind Spots presents a custom website that serves as a vital point of contact for customers. Featuring a straightforward questionnaire to identify personality types, it's a valuable tool for personal growth and strengthening interpersonal connections. This website plays a significant role in fostering personal development and improving relationships."
       ],
       "snapshot": ["/work/snapshots/my-blind-spots/myblindspots-screen.png"],
-      "techStack": ["HTML", "CSS", "WordPress", "jQuery"]
+      "techStack": ["HTML", "CSS", "WordPress", "jQuery"],
+      "previousWork": ["annie-pirotta", "Annie Pirotta"],
+      "nextWork": ["boxti", "Boxti"]
     }
   },
   {
@@ -121,14 +134,17 @@
       "year": "2018",
       "shortDesc": "Custom website selling curated product baskets via WordPress WooCommerce for seamless online shopping.",
       "longDesc": [
-        "Boxti was a custom designed website developed from the ground up -  offering neatly packaged assortments of products. Built on WordPress with WooCommerce, the site provides a seamless e-commerce experience, allowing customers to easily browse, purchase, and enjoy the curated product baskets"
+        "Boxti is a custom-designed website that offers neatly packaged assortments of products. Built from the ground up on WordPress with WooCommerce, it provides a seamless e-commerce experience. Customers can effortlessly browse, purchase, and enjoy curated product baskets.",
+        "Boxti's custom-designed website redefines e-commerce. Offering meticulously curated product assortments, it was developed from scratch using WordPress with WooCommerce. This platform ensures a seamless shopping experience, allowing customers to effortlessly explore, purchase, and savour curated product baskets."
       ],
       "snapshot": [
         "/work/snapshots/boxti/boxti-home.png",
         "/work/snapshots/boxti/boxti-corporate.png",
         "/work/snapshots/boxti/boxti-about.png"
       ],
-      "techStack": ["HTML", "CSS", "WordPress", "jQuery"]
+      "techStack": ["HTML", "CSS", "WordPress", "jQuery"],
+      "previousWork": ["my-blind-spots", "My Blind Spots"],
+      "nextWork": ["all-west-engineering", "All West Engineering"]
     }
   },
   {
@@ -141,8 +157,8 @@
       "year": "2018",
       "shortDesc": "Developed learning management system for engineering solutions company, optimizing onboarding and training.",
       "longDesc": [
-        "We created a robust learning management system for our client, a provider of engineering solutions. The system facilitates onboarding and training for new recruits, offering courses on various topics such as maintenance, line boring, and manufacturing.",
-        "Through the system, the client effectively manages and tracks the progress of learners, ensuring a comprehensive and streamlined training experience."
+        "All West Engineering now benefits from a robust learning management system we developed. This system streamlines onboarding and training processes, offering courses on various engineering topics. It enables effective management and tracking of learner progress, ensuring a comprehensive training experience.",
+        "Our team has created a robust learning management system for All West Engineering. This system streamlines onboarding and training for new recruits, providing a comprehensive range of courses on topics such as maintenance, line boring, and manufacturing. Through this system, the client efficiently manages and tracks learner progress, ensuring a comprehensive and streamlined training experience."
       ],
       "snapshot": [
         "/work/snapshots/all-west-engineering/lms-1.png",
@@ -158,7 +174,9 @@
         "/work/snapshots/all-west-engineering/lms-admin-5.png",
         "/work/snapshots/all-west-engineering/lms-admin-6.png"
       ],
-      "techStack": ["HTML", "CSS", "JavaScript", "jQuery"]
+      "techStack": ["HTML", "CSS", "JavaScript", "jQuery"],
+      "previousWork": ["boxti", "Boxti"],
+      "nextWork": ["perfect-cotton", "Perfect Cotton"]
     }
   },
   {
@@ -171,14 +189,16 @@
       "year": "2018",
       "shortDesc": "Simple and beautiful website selling decorative cotton sticks with a mint green color scheme.",
       "longDesc": [
-        "We created a stunning website for our small business client specialising in decorative cotton sticks. With a focus on simplicity and beauty, the website features an elegant design, complemented by a mint green color scheme that aligns perfectly with the nature of the product.",
-        "Visitors can explore the various cotton stick offerings and make purchases, immersing themselves in a visually appealing online shopping experience."
+        "Perfect Cotton, a small business specialising in decorative cotton sticks, presents a stunning website. With an emphasis on simplicity and beauty, it features an elegant design and a mint green colour scheme that aligns with the product's nature. Visitors can explore various cotton stick offerings, immersing themselves in a visually appealing online shopping experience.",
+        "Perfect Cotton's website is a stunning representation of simplicity and beauty. Designed for a small business specialising in decorative cotton sticks, it features an elegant design complemented by a mint green colour scheme that perfectly aligns with the product's nature. Visitors are invited to explore a range of cotton stick offerings, immersing themselves in a visually appealing online shopping experience."
       ],
       "snapshot": [
         "/work/snapshots/perfect-cotton/perfectcotton-home.png",
         "/work/snapshots/perfect-cotton/perfectcotton-shop.png"
       ],
-      "techStack": ["HTML", "CSS", "WordPress", "jQuery"]
+      "techStack": ["HTML", "CSS", "WordPress", "jQuery"],
+      "previousWork": ["all-west-engineering", "All West Engineering"],
+      "nextWork": ["my-sal-pack", "MySalPack"]
     }
   }
 ]

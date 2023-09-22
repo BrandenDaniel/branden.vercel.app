@@ -10,11 +10,8 @@
     gap: 5px;
     font-size: 13px;
     color: var(--body);
-    opacity: 0.5;
-    transition: opacity 0.3s;
 
     &:hover {
-      opacity: 1;
       &:first-child {
         svg {
           translate: -5px 0;

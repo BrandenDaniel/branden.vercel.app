@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,11 +12,15 @@ type Props = {
   techStack: string[];
 };
 
+const scrollToTop = () => {
+  document.body.scrollTop = 0;
+};
+
 const workItem = (props: Props) => {
   return (
     <div className="workItem">
       <div className="workItem__thumbnail">
-        <Link href={`work/${props.id}`}>
+        <Link href={`work/${props.id}`} onClick={scrollToTop}>
           <Image
             src={props.thumbnail}
             alt={props.title}

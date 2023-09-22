@@ -1,7 +1,7 @@
 .techStack {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 25px;
 
   > div {
     display: flex;
@@ -23,7 +23,7 @@
 @media (min-width: $md) {
   .techStack {
     > div {
-      gap: 30px;
+      gap: 25px;
 
       p {
         width: 77.72px;

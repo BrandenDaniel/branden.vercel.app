@@ -1,7 +1,7 @@
 .home {
   display: flex;
   flex-direction: column;
-  gap: 60px 0;
+  gap: 65px 0;
 
   &__featured {
     display: flex;
@@ -76,8 +76,9 @@
 
 @media (min-width: $md) {
   .home {
+    gap: 70px;
     &__featured {
-      gap: 30px;
+      gap: 40px;
       &-projects,
       &-work {
         &-container {

@@ -45,7 +45,7 @@ body {
 .container {
   max-width: 630px;
   width: 100%;
-  padding: 0 23px;
+  padding: 0 16px;
   margin: 0 auto;
 }
 
@@ -73,7 +73,7 @@ img {
   main {
     &:has(.nav--scroll-active) {
       .caseStudy__back {
-        padding-left: 55px;
+        // padding-left: 55px;
       }
     }
   }

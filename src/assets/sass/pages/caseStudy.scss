@@ -3,7 +3,7 @@
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 23px;
+    padding: 0 16px;
   }
 
   &__back {
@@ -79,7 +79,7 @@
     > div {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 16px;
       img {
         max-width: 100%;
         width: 100%;
@@ -103,7 +103,7 @@
   .caseStudy {
     &__back {
       position: sticky;
-      top: 28px;
+      top: 26px;
     }
   }
 }

@@ -26,7 +26,9 @@ const Banner = () => {
         {showMore && (
           <>
             <p>
-              {"I enjoy turning complex challenges into a intuitive products."}
+              {
+                "I enjoy turning complex challenges into intuitive products. This portfolio is a collection of web apps and sites I've personally built."
+              }
             </p>
             <p>{"My current focus is React (Next.js) and TypeScript."}</p>
           </>

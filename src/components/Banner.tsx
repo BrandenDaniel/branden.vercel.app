@@ -4,8 +4,10 @@ import Image from "next/image";
 import profilePic from "../assets/images/profile.png";
 import Socials from "./Socials";
 import Link from "next/link";
-import { FiMoreHorizontal } from "react-icons/fi";
 import { useState } from "react";
+import { FiMoreHorizontal } from "react-icons/fi";
+import { FaReact } from "react-icons/fa";
+import { SiNextdotjs, SiTypescript } from "react-icons/si";
 
 const Banner = () => {
   const [showMore, setShowMore] = useState(false);
@@ -30,7 +32,23 @@ const Banner = () => {
                 "I enjoy turning complex challenges into intuitive products. This portfolio is a collection of web apps and sites I've personally built."
               }
             </p>
-            <p>{"My current focus is React (Next.js) and TypeScript."}</p>
+            <p>
+              My current focus is{" "}
+              <Link href="https://react.dev/" target="_blank">
+                <FaReact />
+                React
+              </Link>
+              ,{" "}
+              <Link href="https://nextjs.org/" target="_blank">
+                <SiNextdotjs /> Next.js
+              </Link>
+              , and{" "}
+              <Link href="https://www.typescriptlang.org/" target="_blank">
+                <SiTypescript />
+                TypeScript
+              </Link>
+              .
+            </p>
           </>
         )}
 

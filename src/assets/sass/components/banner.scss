@@ -18,9 +18,10 @@
 
       > button {
         border: none;
-        padding: 0 4px;
+        padding: 0 3px;
+        border-radius: 3px;
         display: inline-flex;
-        height: 12px;
+        height: 11px;
         background: var(--body);
         align-items: flex-end;
         margin-left: 5px;
@@ -31,9 +32,9 @@
 
         svg {
           stroke: var(--theme);
-          line-height: 12px;
-          height: 12px;
-          transform: scale(1.4);
+          line-height: 11px;
+          height: 11px;
+          transform: scale(1.5);
         }
       }
     }

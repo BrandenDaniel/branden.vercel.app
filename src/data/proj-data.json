@@ -1,6 +1,23 @@
 {
   "projects": [
     {
+      "previewGif": "/project/thumbnail/markdown-app-preview.gif",
+      "postion": "center top",
+      "name": "Markdown",
+      "URL": "https://markdown-app-one.vercel.app/",
+      "ghRepo": "https://github.com/BrandenDaniel/markdown-app",
+      "desc": "A browser markdown app that formats text from a textarea input. Switch between light/dark mode, create, and save your markdown files locally.",
+      "techStack": [
+        "React.js",
+        "Next.js",
+        "TypeScript",
+        "Accessibility",
+        "SASS/SCSS",
+        "BEM",
+        "Responsive"
+      ]
+    },
+    {
       "previewGif": "/project/thumbnail/dictionary-app-thumbnail.gif",
       "postion": "center top",
       "name": "Dictionary app",
@@ -15,7 +32,8 @@
         "Fetch API",
         "SASS/SCSS",
         "BEM",
-        "Responsive"
+        "Responsive",
+        "Accessibility"
       ]
     },
     {

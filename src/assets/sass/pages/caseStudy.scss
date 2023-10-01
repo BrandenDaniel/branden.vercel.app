@@ -3,13 +3,14 @@
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 16px;
+    padding: 0 18px;
   }
 
   &__back {
     max-width: 580px;
     margin: 0 auto;
-
+    position: sticky;
+    top: 24px;
     a {
       display: inline-flex;
       align-items: center;
@@ -79,7 +80,7 @@
     > div {
       display: flex;
       flex-direction: column;
-      gap: 16px;
+      gap: 18px;
       img {
         max-width: 100%;
         width: 100%;
@@ -96,14 +97,5 @@
   a {
     display: block;
     text-decoration: underline;
-  }
-}
-
-@media (min-width: $md) {
-  .caseStudy {
-    &__back {
-      position: sticky;
-      top: 26px;
-    }
   }
 }

@@ -19,6 +19,24 @@
       ]
     },
     {
+      "previewGif": "/project/thumbnail/devjobs-preview.gif",
+      "postion": "center top",
+      "name": "devjobs",
+      "URL": "https://devjobs-one-eta.vercel.app/",
+      "ghRepo": "https://github.com/BrandenDaniel/devjobs",
+      "desc": "A job search web app with filtering features and dynamic data population on a single modal.",
+      "techStack": [
+        "React.js",
+        "Next.js",
+        "TypeScript",
+        "JavaScript",
+        "Filtering",
+        "SASS/SCSS",
+        "BEM",
+        "Responsive"
+      ]
+    },
+    {
       "previewGif": "/project/thumbnail/dictionary-app-thumbnail.gif",
       "postion": "center top",
       "name": "Dictionary app",
@@ -35,24 +53,6 @@
         "BEM",
         "Responsive",
         "Accessibility"
-      ]
-    },
-    {
-      "previewGif": "/project/thumbnail/devjobs-preview.gif",
-      "postion": "center top",
-      "name": "devjobs",
-      "URL": "https://devjobs-one-eta.vercel.app/",
-      "ghRepo": "https://github.com/BrandenDaniel/devjobs",
-      "desc": "A job search web app with filtering features and dynamic data population on a single modal.",
-      "techStack": [
-        "React.js",
-        "Next.js",
-        "TypeScript",
-        "JavaScript",
-        "Filtering",
-        "SASS/SCSS",
-        "BEM",
-        "Responsive"
       ]
     },
     {

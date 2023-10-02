@@ -6,7 +6,7 @@
       "name": "Markdown",
       "URL": "https://markdown-app-one.vercel.app/",
       "ghRepo": "https://github.com/BrandenDaniel/markdown-app",
-      "desc": "A browser markdown app that formats text from a textarea input. Switch between light/dark mode, create, and save your markdown files locally.",
+      "desc": "A browser app that formats plain text into markdown content. Switch between light/dark mode, create, and save files locally.",
       "techStack": [
         "React.js",
         "Next.js",
@@ -42,7 +42,7 @@
       "name": "Dictionary app",
       "URL": "https://dictionary-app-swart-six.vercel.app/",
       "ghRepo": "https://github.com/BrandenDaniel/dictionary-app",
-      "desc": "A fully functional and responsive dictionary web app. Light/dark mode set to user's device preference + font family stored in local storage.",
+      "desc": "A fully functional and responsive dictionary web app. Light/dark mode set to user's device preference.",
       "techStack": [
         "React.js",
         "Next.js",
@@ -87,14 +87,6 @@
         "BEM",
         "Responsive"
       ]
-    },
-    {
-      "previewGif": "/project/thumbnail/splitter-preview.gif",
-      "name": "Splitter",
-      "URL": "https://frontend-mentor-tip-calculator-app-zeta.vercel.app/",
-      "ghRepo": "https://github.com/BrandenDaniel/splitter",
-      "desc": "Bill tipper and splitter - a minimally styled utility app with some JS functionality/calculations.",
-      "techStack": ["HTML", "JavaScript", "CSS", "BEM", "Responsive"]
     },
     {
       "previewGif": "/project/thumbnail/cryptoverse-preview.gif",

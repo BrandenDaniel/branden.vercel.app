@@ -17,7 +17,7 @@ const Page = ({ params }: Params) => {
       {selectedItem ? (
         <div className="caseStudy caseStudy--container">
           <div className="caseStudy__back">
-            <Link href="/work">
+            <Link href="/work" aria-label="Back to work page">
               <CgArrowLeft />
             </Link>
           </div>

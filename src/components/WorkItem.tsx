@@ -25,6 +25,7 @@ const workItem = (props: Props) => {
             src={props.thumbnail}
             alt={props.title}
             fill={true}
+            sizes="350w"
             style={{
               objectPosition: props.thumbnailPosition
                 ? props.thumbnailPosition

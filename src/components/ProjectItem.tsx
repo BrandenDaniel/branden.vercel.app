@@ -22,6 +22,7 @@ const ProjectItem = (props: Props) => {
             src={props.previewGif}
             alt={props.name}
             fill={true}
+            sizes="350w"
             style={{
               objectPosition: props.position ? props.position : "center",
             }}

@@ -19,7 +19,10 @@ const Banner = () => {
         <p>
           {`I'm a frontend developer, personal finance nerd, and minimalist.`}{" "}
           {!showMore && (
-            <button onClick={() => setShowMore(true)}>
+            <button
+              aria-label="expand profile info"
+              onClick={() => setShowMore(true)}
+            >
               <FiMoreHorizontal />
             </button>
           )}

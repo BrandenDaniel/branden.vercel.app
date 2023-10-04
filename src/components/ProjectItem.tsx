@@ -32,10 +32,18 @@ const ProjectItem = (props: Props) => {
         <div className="projectItem__content-name">
           <p>{props.name}</p>
           <div className="projectItem__content-external">
-            <Link href={props.ghRepo} target="_blank">
+            <Link
+              href={props.ghRepo}
+              target="_blank"
+              aria-label="external link to project Github repository"
+            >
               <TbBrandGithub />
             </Link>
-            <Link href={props.URL} target="_blank">
+            <Link
+              href={props.URL}
+              target="_blank"
+              aria-label="external link to website"
+            >
               <IoLinkOutline />
             </Link>
           </div>

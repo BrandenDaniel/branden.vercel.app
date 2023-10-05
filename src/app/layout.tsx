@@ -22,6 +22,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="theme-color" content="#151515" />
+      </head>
       <body className={ubuntu.className}>
         <main>
           <Nav />

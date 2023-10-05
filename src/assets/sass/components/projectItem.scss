@@ -82,7 +82,7 @@
         background: rgba(255, 255, 255, 0.075);
         opacity: 0.8;
         padding: 3px 4px;
-        font-size: 13px;
+        font-size: 14px;
         line-height: 1;
         border-radius: 4px;
       }
@@ -95,6 +95,14 @@
   .workItem {
     &__thumbnail {
       position: relative;
+    }
+
+    &__content {
+      &-tech {
+        span {
+          font-size: 13px;
+        }
+      }
     }
   }
 }

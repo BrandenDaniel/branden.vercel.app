@@ -3,10 +3,10 @@ import WorkItem from "@/components/WorkItem";
 
 const page = () => {
   return (
-    <section className="projects container">
+    <section className="work container">
       <h1>Work</h1>
 
-      <div className="projects__items">
+      <div className="work__items">
         {WorkData.map((item) => (
           <WorkItem
             key={item.caseStudy.title}

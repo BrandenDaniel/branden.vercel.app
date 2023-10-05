@@ -1,4 +1,6 @@
 .caseStudy {
+  animation: 0.6s load-in ease;
+
   &--container {
     max-width: 1000px;
     width: 100%;

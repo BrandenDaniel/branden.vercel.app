@@ -1,4 +1,7 @@
-.projects {
+.projects,
+.work {
+  animation: 0.6s load-in ease;
+
   h1 {
     font-size: 19px;
     margin-bottom: 15px;
@@ -13,7 +16,8 @@
 }
 
 @media (min-width: $md) {
-  .projects {
+  .projects,
+  .work {
     &__items {
       gap: 30px 15px;
       grid-template-columns: repeat(2, 1fr);

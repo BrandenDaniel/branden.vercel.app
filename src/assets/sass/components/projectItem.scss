@@ -78,10 +78,10 @@
       gap: 7px;
 
       span {
-        border: 1px solid rgba(255, 255, 255, 0.115);
-        background: rgba(255, 255, 255, 0.065);
+        // border: 1px solid rgba(255, 255, 255, 0.115);
+        background: rgba(255, 255, 255, 0.09);
         opacity: 0.8;
-        padding: 4px 5px;
+        padding: 5px 6px;
         font-size: 15px;
         line-height: 1;
         border-radius: 4px;
@@ -100,7 +100,7 @@
     &__content {
       &-tech {
         span {
-          padding: 3px 4px;
+          padding: 4px 5px;
           font-size: 13px;
         }
       }

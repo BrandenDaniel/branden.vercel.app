@@ -18,6 +18,8 @@
 @media (min-width: $md) {
   .projects,
   .work {
+    margin-top: -40px;
+
     &__items {
       gap: 30px 15px;
       grid-template-columns: repeat(2, 1fr);

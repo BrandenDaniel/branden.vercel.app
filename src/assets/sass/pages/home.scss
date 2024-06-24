@@ -29,11 +29,16 @@
 
           &:hover {
             opacity: 1;
+            
+            svg {
+              translate: 5px 0;
+            }
           }
 
           svg {
             color: var(--body);
             font-size: 18px;
+            transition: 0.3s ease;
           }
         }
       }
@@ -77,7 +82,7 @@
 
 @media (min-width: $md) {
   .home {
-    gap: 70px;
+    gap: 65px;
     &__featured {
       gap: 40px;
       &-projects,

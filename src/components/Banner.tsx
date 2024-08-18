@@ -57,9 +57,9 @@ const Banner = () => {
 
         <div className="banner__links">
           <Socials />
-          <Link href="/docs/CV.pdf" target="_blank" download>
+          {/* <Link href="/docs/CV.pdf" target="_blank" download>
             download cv.
-          </Link>
+          </Link> */}
         </div>
       </div>
       <div className="banner__picture">

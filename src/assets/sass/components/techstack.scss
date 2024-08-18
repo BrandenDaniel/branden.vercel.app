@@ -1,33 +1,43 @@
 .techStack {
-  display: flex;
-  flex-direction: column;
-  gap: 25px 30px;
+	display: flex;
+	flex-direction: column;
+	gap: 12px 0;
 
-  > div {
-    display: flex;
-    gap: 22px;
+	> div {
+		flex-wrap: wrap;
+		display: flex;
+		gap: 12px;
 
-    p {
-      font-size: 16px;
-      width: 68px;
-      span {
-        font-size: 13px;
-        display: block;
-        opacity: 0.6;
-        margin-top: 3px;
-      }
-    }
-  }
+		p {
+
+			a {
+				background: rgba(255, 255, 255, 0.1);
+				line-height: 1;
+				display: inline-flex;
+				align-items: center;
+				gap: 5px;
+				padding: 6px;
+				border-radius: 4px;
+				font-size: 14px;
+
+				&:hover {
+					background: none;
+					outline: 1px solid rgba(255, 255, 255, 0.3);
+				}
+				svg {
+					font-size: 14px;
+				}
+			}
+		}
+	}
 }
 
 @media (min-width: $md) {
-  .techStack {
-    > div {
-      gap: 25px 30px;
-
-      p {
-        width: 80px;
-      }
-    }
-  }
+	.techStack {
+    gap: 21px 0;
+    
+		> div {
+			gap: 0px 21px;
+		}
+	}
 }
